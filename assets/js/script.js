@@ -50,7 +50,7 @@ $(document).ready(function () {
         });
         
         console.log(values)
-        emailjs.init("T-EY7HECWaKX8JzR2");
+        emailjs.init("NvHqVqPwqGANopNMd");
         emailjs.send("service_je7kaff","template_3sa1mjk", values)
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
